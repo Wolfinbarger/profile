@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  background: rgb(241,246,249);
+  background: linear-gradient(45deg, rgba(241,246,249,1) 0%, rgba(155,164,181,1) 100%);
+}
+
+img {
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.8;
+  color: #232425;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 1.6;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+div {
+  background-color: #F9F4F1;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 300px;
+  margin: 0 auto;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: rgb(0, 0, 0);
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: rgb(78, 72, 72);
+  text-decoration-line: none;
+}
+
+.copy-right {
+  font-size: 8px;
+}
+
+i {
+  color: black;
+}
+
+.list-inline {
+  font-size: 24px;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+/* .list-inline li a {
+  color: chartreuse;
+  font-size: 24px;
+} */
+
+.top-container {
+  text-align: center;
+
+}
+.bottom-container {
+  text-align: center;
+  padding: 4px;
+}
+
+i:hover {
+  color: purple;
+}
